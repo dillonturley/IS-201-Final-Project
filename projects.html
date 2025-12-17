@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brandMark" aria-hidden="true"></span>
+        <span>Portfolio</span>
+      </a>
+
+      <div class="navLinks">
+        <a class="navLink" href="index.html">Home</a>
+        <a class="navLink" href="resume.html">Resume</a>
+        <a class="navLink" href="projects.html" aria-current="page">Projects</a>
+        <a class="navLink" href="scratch.html">Scratch</a>
+      </div>
+
+      <button class="navBtn" id="modeBtn" type="button" aria-label="Toggle theme">
+        <span class="navBtnDot" aria-hidden="true"></span>
+      </button>
+    </nav>
+    <div class="scrollMeter" aria-hidden="true"><div class="scrollMeterFill" id="scrollMeterFill"></div></div>
+  </header>
+
+  <main id="main" class="shell">
+    <section class="card">
+      <div class="rowBetween">
+        <div>
+          <h1 class="h1">Projects</h1>
+          <p class="lead">Each project card includes at least one interaction.</p>
+        </div>
+        <div class="mono subtle" id="projSignal" aria-live="polite">—</div>
+      </div>
+    </section>
+
+    <section class="projGrid">
+      <article class="card proj" data-proj="field">
+        <div class="projTop">
+          <h2 class="h2">Vector Field Notes</h2>
+          <span class="tag">canvas</span>
+        </div>
+        <p class="p">
+          Hover and move: the field re-weights itself based on pointer velocity and dwell.
+        </p>
+        <canvas class="projCanvas" id="pField" width="860" height="320" aria-label="Vector field canvas"></canvas>
+      </article>
+
+      <article class="card proj" data-proj="svg">
+        <div class="projTop">
+          <h2 class="h2">Constraint Graph</h2>
+          <span class="tag">svg</span>
+        </div>
+        <p class="p">
+          Nodes subtly re-route as you scroll and pause; the graph avoids your cursor.
+        </p>
+        <svg class="projSvg" id="pGraph" viewBox="0 0 860 320" role="img" aria-label="Interactive SVG graph">
+          <defs>
+            <filter id="softGlow">
+              <feGaussianBlur stdDeviation="2.2" result="blur"></feGaussianBlur>
+              <feMerge>
+                <feMergeNode in="blur"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+              </feMerge>
+            </filter>
+          </defs>
+          <g id="graphLines" filter="url(#softGlow)"></g>
+          <g id="graphNodes"></g>
+        </svg>
+      </article>
+
+      <article class="card proj" data-proj="time">
+        <div class="projTop">
+          <h2 class="h2">Time-Lens Layout</h2>
+          <span class="tag">behavior</span>
+        </div>
+        <p class="p">
+          This panel subtly adjusts spacing and emphasis using local time and interaction rhythm.
+        </p>
+        <div class="timeLens" id="timeLens" aria-label="Time lens panel">
+          <div class="timeLensTop">
+            <div class="k">Local time</div>
+            <div class="v mono" id="localTime">—</div>
+          </div>
+          <div class="timeLensMid">
+            <div class="k">Rhythm</div>
+            <div class="v mono" id="rhythm">—</div>
+          </div>
+          <div class="timeLensBottom">
+            <div class="k">Focus</div>
+            <div class="v mono" id="focus">—</div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="card">
+      <div class="rowBetween">
+        <h2 class="h2">Live data</h2>
+        <span class="mono subtle">Tableau Public embed</span>
+      </div>
+      <p class="p">
+        Interactive visualization embedded below.
+      </p>
+
+      <div class="vizWrap" aria-label="Embedded Tableau visualization">
+        <div class="tableauPlaceholder" id="tableauViz" style="position:relative;">
+          <noscript>
+            <a class="link" href="https://public.tableau.com/app/profile/covid.19.data.resource.hub/viz/COVID-19Cases_15840488375320/COVID-19GlobalView">
+              View the visualization on Tableau Public
+            </a>
+          </noscript>
+          <object class="tableauViz" style="display:none;">
+            <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+            <param name="site_root" value="" />
+            <param name="name" value="COVID-19Cases_15840488375320/COVID-19GlobalView" />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="yes" />
+            <param name="showVizHome" value="no" />
+            <param name="display_count" value="n" />
+            <param name="origin" value="viz_share_link" />
+          </object>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="footInner">
+        <span class="mono">© <span id="year"></span></span>
+        <span class="mono footSep">•</span>
+        <a class="linkLike mono" href="scratch.html">Scratch</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intergalactic Pizza Rush 🚀🍕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000000;
+            color: #ffffff;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        #gameContainer {
+            position: relative;
+            width: 1200px;
+            height: 800px;
+            background: linear-gradient(to bottom, #000000 0%, #0a0a1a 50%, #000000 100%);
+            border: 3px solid #ffd700;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(255, 215, 0, 0.3);
+        }
+
+        #stars {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(2px 2px at 20% 30%, white, transparent),
+                radial-gradient(2px 2px at 60% 70%, white, transparent),
+                radial-gradient(1px 1px at 50% 50%, white, transparent),
+                radial-gradient(1px 1px at 80% 10%, white, transparent),
+                radial-gradient(2px 2px at 90% 60%, white, transparent),
+                radial-gradient(1px 1px at 33% 80%, white, transparent),
+                radial-gradient(1px 1px at 15% 90%, white, transparent),
+                radial-gradient(2px 2px at 45% 20%, white, transparent),
+                radial-gradient(1px 1px at 75% 85%, white, transparent);
+            background-size: 200% 200%;
+            animation: twinkle 3s ease-in-out infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        #menuScreen, #gameOverScreen {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 100;
+        }
+
+        h1 {
+            color: #ffd700;
+            font-size: 3.5em;
+            text-shadow: 0 0 20px #ffd700;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            color: #ff4444;
+            font-size: 1.3em;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #ffd700 0%, #ff4444 100%);
+            color: #000;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'Courier New', monospace;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.6);
+        }
+
+        #hud {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 50;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px 25px;
+            border-radius: 10px;
+            border: 2px solid #ffd700;
+        }
+
+        .hud-item {
+            color: #ffd700;
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+
+        .hud-value {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        #ship {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 50px solid #ffd700;
+            z-index: 10;
+            transition: transform 0.1s;
+            filter: drop-shadow(0 0 10px #ffd700);
+        }
+
+        #ship::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #ff4444;
+            border-radius: 50%;
+            left: -10px;
+            top: 15px;
+        }
+
+        .obstacle {
+            position: absolute;
+            z-index: 5;
+            font-size: 45px;
+            filter: drop-shadow(0 0 5px rgba(255, 68, 68, 0.5));
+        }
+
+        .base, .hq {
+            position: absolute;
+            z-index: 5;
+            font-size: 80px;
+            animation: pulse 2s ease-in-out infinite;
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.6));
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+
+        #instructions {
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .difficulty-btn {
+            min-width: 150px;
+        }
+
+        #gameCanvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #ffd700;
+            border-radius: 50%;
+            pointer-events: none;
+            box-shadow: 0 0 5px #ffd700;
+        }
+
+        .trail {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: radial-gradient(circle, #ff4444 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: fadeTrail 0.5s ease-out forwards;
+        }
+
+        @keyframes fadeTrail {
+            to { 
+                opacity: 0;
+                transform: scale(0.5);
+            }
+        }
+
+        #backLink {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            z-index: 60;
+        }
+
+        #backLink a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        #backLink a:hover {
+            color: #ff4444;
+        }
+
+        .game-over-stats {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #ffd700;
+        }
+
+        .stat-line {
+            color: #ffffff;
+            font-size: 1.3em;
+            margin: 12px 0;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        #missionStatus {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px 25px;
+            border-radius: 10px;
+            border: 2px solid #ff4444;
+            z-index: 50;
+            text-align: center;
+        }
+
+        .mission-title {
+            color: #ff4444;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .mission-text {
+            color: #ffd700;
+            font-size: 1.1em;
+        }
+
+        .has-pizza {
+            border-color: #00ff00 !important;
+        }
+
+        .has-pizza .mission-title {
+            color: #00ff00 !important;
+        }
+
+        @keyframes flash {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .flash {
+            animation: flash 0.5s ease-in-out 3;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="stars"></div>
+
+        <!-- Menu Screen -->
+        <div id="menuScreen">
+            <h1>🚀 INTERGALACTIC PIZZA RUSH 🍕</h1>
+            <p class="subtitle">The Ultimate Pizza Delivery Challenge!</p>
+            <div id="instructions">
+                <p><strong>MISSION:</strong> Pick up pizzas from HQ and deliver to bases!</p>
+                <p>Use <strong>ARROW KEYS</strong> to navigate your ship</p>
+                <p>Go to 🏢 HQ → Pick up pizza → Deliver to 🎯 Base → Repeat!</p>
+                <p>Avoid asteroids ☄️, enemy ships 👾, and space debris 🛸</p>
+                <p style="color: #ff4444; margin-top: 15px;">⚠️ Obstacles move FAST - Stay sharp!</p>
+            </div>
+            <div style="margin-top: 30px;">
+                <p style="color: #ffd700; margin-bottom: 15px; font-size: 1.4em; text-align: center;">Choose Your Challenge:</p>
+                <button class="difficulty-btn" onclick="startGame('easy')">🟢 EASY</button>
+                <button class="difficulty-btn" onclick="startGame('medium')">🟡 MEDIUM</button>
+                <button class="difficulty-btn" onclick="startGame('hard')">🔴 HARD</button>
+            </div>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="gameOverScreen" class="hidden">
+            <h1 id="gameOverTitle">MISSION FAILED</h1>
+            <div class="game-over-stats">
+                <div class="stat-line">Successful Deliveries: <span id="finalDeliveries">0</span></div>
+                <div class="stat-line">Credits Earned: <span id="finalCredits">0</span> 💰</div>
+                <div class="stat-line">Time Survived: <span id="finalTime">0</span>s</div>
+                <div class="stat-line">Difficulty: <span id="finalDifficulty">MEDIUM</span></div>
+            </div>
+            <button onclick="restartGame()">🔄 TRY AGAIN</button>
+            <button onclick="backToMenu()">📋 MAIN MENU</button>
+        </div>
+
+        <!-- HUD -->
+        <div id="hud" class="hidden">
+            <div class="hud-item">⏱️ Time: <span class="hud-value" id="timeLeft">60</span>s</div>
+            <div class="hud-item">💰 Credits: <span class="hud-value" id="credits">0</span></div>
+            <div class="hud-item">📦 Deliveries: <span class="hud-value" id="deliveries">0</span></div>
+            <div class="hud-item">🎯 Target: <span class="hud-value" id="currentBase">HQ</span></div>
+        </div>
+
+        <!-- Mission Status -->
+        <div id="missionStatus" class="hidden">
+            <div class="mission-title">CURRENT MISSION</div>
+            <div class="mission-text" id="missionText">Return to HQ!</div>
+        </div>
+
+        <!-- Game Canvas -->
+        <div id="gameCanvas" class="hidden">
+            <div id="ship"></div>
+        </div>
+
+        <div id="backLink">
+            <a href="scratch.html">← Back to Projects</a>
+        </div>
+    </div>
+
+    <script>
+        // Game state
+        let gameState = {
+            playing: false,
+            ship: { x: 100, y: 375, speed: 7, rotation: 0 },
+            obstacles: [],
+            hq: null,
+            currentBase: null,
+            hasPizza: false,
+            currentBaseIndex: 0,
+            credits: 0,
+            deliveries: 0,
+            timeLeft: 60,
+            difficulty: 'medium',
+            keys: {},
+            gameLoop: null,
+            obstacleSpawnTimer: 0,
+            startTime: 0
+        };
+
+        const difficulties = {
+            easy: { obstacleSpeed: 4, spawnRate: 80, timeLimit: 90, obstacleCount: 2 },
+            medium: { obstacleSpeed: 6, spawnRate: 55, timeLimit: 60, obstacleCount: 3 },
+            hard: { obstacleSpeed: 8, spawnRate: 40, timeLimit: 45, obstacleCount: 4 }
+        };
+
+        const baseSequence = [
+            { name: 'Mars Base', emoji: '🔴', x: 1000, y: 150 },
+            { name: 'Jupiter Station', emoji: '🟠', x: 1000, y: 400 },
+            { name: 'Saturn Outpost', emoji: '🪐', x: 1000, y: 650 },
+            { name: 'Venus Colony', emoji: '🟡', x: 1000, y: 300 }
+        ];
+
+        // Audio context
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        let engineSound = null;
+        let ambienceSound = null;
+
+        function createEngineSound() {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'sawtooth';
+            oscillator.frequency.setValueAtTime(80, audioContext.currentTime);
+            gainNode.gain.setValueAtTime(0.08, audioContext.currentTime);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            return { oscillator, gainNode };
+        }
+
+        function createAmbienceSound() {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(40, audioContext.currentTime);
+            gainNode.gain.setValueAtTime(0.03, audioContext.currentTime);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            return { oscillator, gainNode };
+        }
+
+        function playSuccessSound() {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(800, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(1200, audioContext.currentTime + 0.15);
+            
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.15);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.start();
+            oscillator.stop(audioContext.currentTime + 0.15);
+        }
+
+        function playCrashSound() {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'sawtooth';
+            oscillator.frequency.setValueAtTime(120, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(40, audioContext.currentTime + 0.4);
+            
+            gainNode.gain.setValueAtTime(0.4, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.4);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.start();
+            oscillator.stop(audioContext.currentTime + 0.4);
+        }
+
+        function playPickupSound() {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.type = 'square';
+            oscillator.frequency.setValueAtTime(400, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(800, audioContext.currentTime + 0.1);
+            
+            gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.start();
+            oscillator.stop(audioContext.currentTime + 0.1);
+        }
+
+        function startGame(difficulty) {
+            gameState.difficulty = difficulty;
+            gameState.timeLeft = difficulties[difficulty].timeLimit;
+            
+            document.getElementById('menuScreen').classList.add('hidden');
+            document.getElementById('hud').classList.remove('hidden');
+            document.getElementById('missionStatus').classList.remove('hidden');
+            document.getElementById('gameCanvas').classList.remove('hidden');
+            
+            resetGame();
+            gameState.playing = true;
+            gameState.startTime = Date.now();
+            
+            engineSound = createEngineSound();
+            engineSound.oscillator.start();
+            
+            ambienceSound = createAmbienceSound();
+            ambienceSound.oscillator.start();
+            
+            gameState.gameLoop = setInterval(updateGame, 1000 / 60);
+            
+            const timerInterval = setInterval(() => {
+                if (!gameState.playing) {
+                    clearInterval(timerInterval);
+                    return;
+                }
+                gameState.timeLeft--;
+                document.getElementById('timeLeft').textContent = gameState.timeLeft;
+                
+                if (gameState.timeLeft <= 0) {
+                    endGame(false, '⏰ TIME\'S UP! Pizzas Got Cold! ❄️');
+                    clearInterval(timerInterval);
+                }
+            }, 1000);
+        }
+
+        function resetGame() {
+            gameState.ship = { x: 100, y: 375, speed: 7, rotation: 0 };
+            gameState.obstacles = [];
+            gameState.currentBaseIndex = 0;
+            gameState.credits = 0;
+            gameState.deliveries = 0;
+            gameState.obstacleSpawnTimer = 0;
+            gameState.hasPizza = false;
+            
+            updateHUD();
+            spawnHQ();
+            updateMissionStatus();
+            
+            const shipEl = document.getElementById('ship');
+            shipEl.style.left = gameState.ship.x + 'px';
+            shipEl.style.top = gameState.ship.y + 'px';
+        }
+
+        function spawnHQ() {
+            document.querySelectorAll('.hq').forEach(el => el.remove());
+            
+            const hqEl = document.createElement('div');
+            hqEl.className = 'hq';
+            hqEl.textContent = '🏢';
+            hqEl.style.left = '100px';
+            hqEl.style.top = '350px';
+            document.getElementById('gameCanvas').appendChild(hqEl);
+            
+            gameState.hq = { x: 100, y: 350, element: hqEl };
+        }
+
+        function spawnBase() {
+            document.querySelectorAll('.base').forEach(el => el.remove());
+            
+            if (gameState.currentBaseIndex >= baseSequence.length) {
+                gameState.currentBaseIndex = 0;
+            }
+            
+            const baseData = baseSequence[gameState.currentBaseIndex];
+            const baseEl = document.createElement('div');
+            baseEl.className = 'base';
+            baseEl.textContent = baseData.emoji;
+            baseEl.style.left = baseData.x + 'px';
+            baseEl.style.top = baseData.y + 'px';
+            document.getElementById('gameCanvas').appendChild(baseEl);
+            
+            gameState.currentBase = { ...baseData, element: baseEl };
+            document.getElementById('currentBase').textContent = baseData.name;
+        }
+
+        function spawnObstacle() {
+            const obstacles = ['☄️', '👾', '🛸'];
+            const count = difficulties[gameState.difficulty].obstacleCount;
+            
+            for (let i = 0; i < count; i++) {
+                const obstacleEl = document.createElement('div');
+                obstacleEl.className = 'obstacle';
+                obstacleEl.textContent = obstacles[Math.floor(Math.random() * obstacles.length)];
+                obstacleEl.style.left = '1200px';
+                obstacleEl.style.top = (Math.random() * 740 + 30) + 'px';
+                
+                document.getElementById('gameCanvas').appendChild(obstacleEl);
+                
+                gameState.obstacles.push({
+                    element: obstacleEl,
+                    x: 1200,
+                    y: parseInt(obstacleEl.style.top)
+                });
+            }
+        }
+
+        function updateGame() {
+            if (!gameState.playing) return;
+            
+            const ship = gameState.ship;
+            let moving = false;
+            
+            // Handle input with rotation
+            if (gameState.keys['ArrowUp'] && ship.y > 25) {
+                ship.y -= ship.speed;
+                moving = true;
+            }
+            if (gameState.keys['ArrowDown'] && ship.y < 750) {
+                ship.y += ship.speed;
+                moving = true;
+            }
+            if (gameState.keys['ArrowLeft'] && ship.x > 25) {
+                ship.x -= ship.speed;
+                ship.rotation = -15;
+                moving = true;
+            } else if (gameState.keys['ArrowRight'] && ship.x < 1150) {
+                ship.x += ship.speed;
+                ship.rotation = 15;
+                moving = true;
+            } else {
+                ship.rotation = 0;
+            }
+            
+            const shipEl = document.getElementById('ship');
+            shipEl.style.left = ship.x + 'px';
+            shipEl.style.top = ship.y + 'px';
+            shipEl.style.transform = `rotate(${ship.rotation}deg)`;
+            
+            if (moving) {
+                createThrustTrail();
+            }
+            
+            // Update obstacles
+            gameState.obstacles.forEach((obstacle, index) => {
+                obstacle.x -= difficulties[gameState.difficulty].obstacleSpeed;
+                obstacle.element.style.left = obstacle.x + 'px';
+                
+                if (obstacle.x < -50) {
+                    obstacle.element.remove();
+                    gameState.obstacles.splice(index, 1);
+                }
+                
+                if (checkCollision(ship, obstacle, 35)) {
+                    playCrashSound();
+                    endGame(false, '💥 SHIP DESTROYED! Collision!');
+                }
+            });
+            
+            // Check HQ pickup
+            if (!gameState.hasPizza && gameState.hq && checkCollision(ship, gameState.hq, 50)) {
+                playPickupSound();
+                gameState.hasPizza = true;
+                spawnBase();
+                updateMissionStatus();
+                flashElement(document.getElementById('missionStatus'));
+            }
+            
+            // Check base delivery
+            if (gameState.hasPizza && gameState.currentBase && checkCollision(ship, gameState.currentBase, 50)) {
+                playSuccessSound();
+                gameState.credits += 500;
+                gameState.deliveries++;
+                gameState.hasPizza = false;
+                gameState.currentBaseIndex++;
+                updateHUD();
+                document.querySelectorAll('.base').forEach(el => el.remove());
+                gameState.currentBase = null;
+                updateMissionStatus();
+                flashElement(document.getElementById('missionStatus'));
+            }
+            
+            // Spawn obstacles
+            gameState.obstacleSpawnTimer++;
+            if (gameState.obstacleSpawnTimer > difficulties[gameState.difficulty].spawnRate) {
+                spawnObstacle();
+                gameState.obstacleSpawnTimer = 0;
+            }
+        }
+
+        function createThrustTrail() {
+            if (Math.random() > 0.5) {
+                const trail = document.createElement('div');
+                trail.className = 'trail';
+                trail.style.left = (gameState.ship.x + 15) + 'px';
+                trail.style.top = (gameState.ship.y + 40) + 'px';
+                document.getElementById('gameCanvas').appendChild(trail);
+                
+                setTimeout(() => trail.remove(), 500);
+            }
+        }
+
+        function checkCollision(obj1, obj2, threshold) {
+            return Math.abs(obj1.x - obj2.x) < threshold &&
+                   Math.abs(obj1.y - obj2.y) < threshold;
+        }
+
+        function updateHUD() {
+            document.getElementById('credits').textContent = gameState.credits;
+            document.getElementById('deliveries').textContent = gameState.deliveries;
+        }
+
+        function updateMissionStatus() {
+            const statusEl = document.getElementById('missionStatus');
+            const textEl = document.getElementById('missionText');
+            
+            if (!gameState.hasPizza) {
+                textEl.textContent = '🏢 Return to HQ for Pizza!';
+                statusEl.classList.remove('has-pizza');
+                document.getElementById('currentBase').textContent = 'HQ';
+            } else {
+                textEl.textContent = `🍕 Deliver to ${gameState.currentBase.name}!`;
+                statusEl.classList.add('has-pizza');
+            }
+        }
+
+        function flashElement(element) {
+            element.classList.add('flash');
+            setTimeout(() => element.classList.remove('flash'), 1500);
+        }
+
+        function endGame(victory, message) {
+            gameState.playing = false;
+            clearInterval(gameState.gameLoop);
+            
+            if (engineSound) {
+                engineSound.oscillator.stop();
+                engineSound = null;
+            }
+            if (ambienceSound) {
+                ambienceSound.oscillator.stop();
+                ambienceSound = null;
+            }
+            
+            const timeSurvived = Math.floor((Date.now() - gameState.startTime) / 1000);
+            
+            document.getElementById('gameOverTitle').textContent = victory ? '🎉 MISSION SUCCESS! 🎉' : message;
+            document.getElementById('gameOverTitle').style.color = victory ? '#ffd700' : '#ff4444';
+            document.getElementById('finalDeliveries').textContent = gameState.deliveries;
+            document.getElementById('finalCredits').textContent = gameState.credits;
+            document.getElementById('finalTime').textContent = timeSurvived;
+            document.getElementById('finalDifficulty').textContent = gameState.difficulty.toUpperCase();
+            
+            document.getElementById('gameOverScreen').classList.remove('hidden');
+        }
+
+        function restartGame() {
+            document.getElementById('gameOverScreen').classList.add('hidden');
+            document.querySelectorAll('.obstacle').forEach(el => el.remove());
+            document.querySelectorAll('.base').forEach(el => el.remove());
+            document.querySelectorAll('.trail').forEach(el => el.remove());
+            startGame(gameState.difficulty);
+        }
+
+        function backToMenu() {
+            document.getElementById('gameOverScreen').classList.add('hidden');
+            document.getElementById('hud').classList.add('hidden');
+            document.getElementById('missionStatus').classList.add('hidden');
+            document.getElementById('gameCanvas').classList.add('hidden');
+            document.getElementById('menuScreen').classList.remove('hidden');
+            
+            document.querySelectorAll('.obstacle').forEach(el => el.remove());
+            document.querySelectorAll('.base').forEach(el => el.remove());
+            document.querySelectorAll('.hq').forEach(el => el.remove());
+            document.querySelectorAll('.trail').forEach(el => el.remove());
+        }
+
+        window.addEventListener('keydown', (e) => {
+            gameState.keys[e.key] = true;
+            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+                e.preventDefault();
+            }
+        });
+
+        window.addEventListener('keyup', (e) => {
+            gameState.keys[e.key] = false;
+        });
+    </script>
+</body>
+</html>

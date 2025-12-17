@@ -1,0 +1,568 @@
+Location,Pizza_Type,Size,Price,Orders_Delivered,Total_Revenue,Average_Delivery_Time_Minutes,Distance_From_HQ_LightYears,Customer_Satisfaction_Percent,Delivery_Failures,Peak_Delivery_Hour
+Altair Research Outpost Sigma,Saturn Supreme,Small,550,107,58850,35,708.79,86.8,10,1
+Astro Orion Mining Facility Alpha,Saturn Supreme,Party,1250,440,550000,100,8.46,70.8,0,3
+Stellar Deneb Planetary Colony Forge,Martian Special,Party,1200,353,423600,46,217.75,71.1,9,2
+Cosmo Vega Research Outpost Prime,Saturn Supreme,Large,900,275,247500,77,661.72,97.3,19,16
+Interstellar Orion Colony Station Forge,Martian Special,Large,850,111,94350,59,484.04,88.9,10,13
+Neo Deneb Mining Facility Sigma,Jupiter Jumbo,Large,950,76,72200,33,5.41,83.1,16,1
+Deneb Outpost Nova,Martian Special,Small,500,193,96500,28,804.51,85.9,7,15
+Hyper Regulus Exo-Planet Haven Tau,Jupiter Jumbo,Large,950,25,23750,109,772.83,61.2,12,10
+Neo Betelgeuse Outpost Major,Jupiter Jumbo,Large,950,107,101650,69,548.46,84.7,19,12
+Astro Rigel Mining Facility Tau,Jupiter Jumbo,Large,950,126,119700,48,66.56,80.4,17,0
+Galactic Altair Planetary Colony Gamma,Jupiter Jumbo,Large,950,471,447450,83,766.54,81.8,15,22
+Stellar Arcturus Lunar Base Forge,Saturn Supreme,Party,1250,219,273750,98,583.76,74.4,1,1
+Astro Vega Research Facility Epsilon,Venus Veggie Delight,Party,1150,335,385250,27,781.98,63.3,4,1
+Stellar Capella Planetary Colony Epsilon,Jupiter Jumbo,Party,1300,463,601900,28,751.77,67.7,17,20
+Astro Castor Lunar Base Forge,Martian Special,Small,500,92,46000,45,803.02,98.0,2,4
+Interstellar Sirius Research Outpost Omega,Venus Veggie Delight,Small,450,377,169650,83,518.06,76.3,16,3
+Interstellar Lyra Planetary Colony Pi,Martian Special,Party,1200,104,124800,106,140.41,78.7,15,11
+Interstellar Altair Outpost Beta,Martian Special,Party,1200,364,436800,64,671.19,62.1,5,2
+Hyper Arcturus Space Station Major,Martian Special,Large,850,156,132600,78,620.51,61.5,18,19
+Galactic Andromeda Exo-Planet Haven Sigma,Jupiter Jumbo,Large,950,135,128250,56,742.28,88.7,6,9
+Sirius Prime Outpost Omega,Venus Veggie Delight,Small,450,154,69300,58,169.96,81.5,17,19
+Quantum Deneb Mining Facility Alpha,Jupiter Jumbo,Small,600,313,187800,108,195.06,80.3,13,17
+Hyper Capella Exo-Planet Haven Lambda,Saturn Supreme,Small,550,262,144100,117,890.42,69.7,5,20
+Deneb Mining Facility Omega,Jupiter Jumbo,Small,600,348,208800,107,750.0,89.8,7,20
+Galactic Vega Mining Facility Pi,Martian Special,Large,850,496,421600,42,908.24,66.7,14,20
+Neo Polaris Outpost Beta,Saturn Supreme,Party,1250,418,522500,30,758.74,67.6,14,9
+Stellar Andromeda Prime Outpost Lambda,Venus Veggie Delight,Large,800,298,238400,90,597.2,78.4,14,0
+Galactic Andromeda Research Facility Gamma,Jupiter Jumbo,Party,1300,390,507000,31,654.17,71.5,15,5
+Spica Space Station Beta,Saturn Supreme,Party,1250,196,245000,57,889.14,69.9,0,10
+Quantum Orion Colony Station Epsilon,Jupiter Jumbo,Large,950,448,425600,46,578.85,85.8,10,1
+Astro Regulus Outpost Lambda,Jupiter Jumbo,Small,600,281,168600,24,632.43,86.0,4,6
+Nebula Capella Lunar Base Nova,Jupiter Jumbo,Party,1300,165,214500,44,156.56,93.0,4,19
+Quantum Pollux Research Facility Prime,Martian Special,Large,850,464,394400,101,473.97,76.7,5,20
+Neo Altair Space Station Omega,Martian Special,Party,1200,318,381600,80,716.43,62.9,1,20
+Quantum Aldebaran Prime Outpost Prime,Martian Special,Party,1200,26,31200,41,271.02,70.9,5,20
+Cosmo Capella Prime Outpost Delta,Venus Veggie Delight,Large,800,257,205600,20,202.33,99.2,13,17
+Exo Cygnus Colony Station Pi,Jupiter Jumbo,Small,600,240,144000,19,313.9,83.9,10,20
+Neo Altair Colony Station Tau,Jupiter Jumbo,Large,950,349,331550,82,241.58,88.4,3,18
+Astro Polaris Planetary Colony Beta,Jupiter Jumbo,Party,1300,53,68900,87,214.99,60.3,8,3
+Cosmo Betelgeuse Research Facility Zeta,Jupiter Jumbo,Party,1300,479,622700,86,424.91,80.7,2,12
+Astro Pollux Space Station Epsilon,Venus Veggie Delight,Large,800,63,50400,66,907.85,61.5,15,17
+Stellar Lyra Colony Station Forge,Jupiter Jumbo,Small,600,174,104400,34,507.11,82.8,10,19
+Interstellar Rigel Lunar Base Tau,Venus Veggie Delight,Small,450,480,216000,11,188.0,96.8,3,23
+Quantum Deneb Colony Station Lambda,Saturn Supreme,Small,550,192,105600,73,77.06,98.7,0,12
+Neo Castor Lunar Base Delta,Martian Special,Party,1200,468,561600,44,696.19,81.6,15,18
+Neo Altair Lunar Base Lambda,Martian Special,Large,850,275,233750,16,382.86,78.3,18,16
+Astro Orion Research Outpost Nova,Venus Veggie Delight,Large,800,194,155200,94,821.85,97.8,15,0
+Nebula Sirius Planetary Colony Sigma,Martian Special,Party,1200,450,540000,27,659.54,86.9,10,5
+Hyper Sirius Colony Station Tau,Martian Special,Large,850,179,152150,76,796.26,62.6,7,18
+Quantum Rigel Research Facility Epsilon,Venus Veggie Delight,Large,800,450,360000,51,272.02,78.6,0,19
+Quantum Cygnus Colony Station Pi,Venus Veggie Delight,Large,800,55,44000,48,692.39,69.6,8,0
+Nebula Aldebaran Mining Facility Lambda,Saturn Supreme,Small,550,368,202400,50,264.14,78.8,11,7
+Exo Andromeda Exo-Planet Haven Gamma,Martian Special,Large,850,59,50150,84,939.07,78.2,7,16
+Arcturus Research Facility Lambda,Martian Special,Small,500,248,124000,112,636.41,83.3,16,20
+Exo Spica Planetary Colony Nova,Jupiter Jumbo,Party,1300,324,421200,33,324.58,74.3,9,21
+Interstellar Sirius Lunar Base Zeta,Jupiter Jumbo,Small,600,135,81000,69,269.58,66.6,6,14
+Nebula Deneb Mining Facility Forge,Saturn Supreme,Large,900,489,440100,55,191.01,80.1,18,17
+Interstellar Proxima Centauri Planetary Colony Sigma,Venus Veggie Delight,Party,1150,311,357650,28,694.67,93.2,5,6
+Vega Mining Facility Prime,Venus Veggie Delight,Large,800,139,111200,77,218.79,86.6,18,15
+Neo Polaris Planetary Colony Epsilon,Martian Special,Small,500,25,12500,99,595.34,73.5,17,6
+Interstellar Cygnus Research Facility Nova,Venus Veggie Delight,Small,450,333,149850,111,264.71,97.4,14,16
+Exo Rigel Prime Outpost Forge,Venus Veggie Delight,Party,1150,171,196650,51,662.0,96.5,1,3
+Hyper Orion Research Facility Tau,Saturn Supreme,Large,900,278,250200,41,814.96,68.4,13,11
+Cosmo Andromeda Planetary Colony Prime,Jupiter Jumbo,Party,1300,392,509600,48,778.05,61.6,9,12
+Aldebaran Lunar Base Gamma,Jupiter Jumbo,Small,600,93,55800,118,760.88,89.7,15,3
+Cosmo Spica Research Outpost Omega,Jupiter Jumbo,Party,1300,320,416000,119,187.8,93.1,6,20
+Altair Research Outpost Gamma,Saturn Supreme,Small,550,18,9900,45,88.48,98.7,7,0
+Galactic Altair Mining Facility Nova,Martian Special,Large,850,246,209100,113,698.98,95.6,9,0
+Interstellar Deneb Research Facility Alpha,Saturn Supreme,Small,550,269,147950,110,368.41,84.0,14,6
+Cosmo Betelgeuse Exo-Planet Haven Delta,Martian Special,Large,850,350,297500,106,432.4,81.2,7,8
+Interstellar Sirius Research Facility Tau,Saturn Supreme,Party,1250,57,71250,45,31.25,61.1,12,0
+Exo Altair Research Outpost Omega,Saturn Supreme,Party,1250,390,487500,12,259.65,69.9,11,15
+Exo Proxima Centauri Planetary Colony Lambda,Martian Special,Party,1200,344,412800,82,33.77,78.4,7,17
+Interstellar Betelgeuse Outpost Delta,Venus Veggie Delight,Large,800,96,76800,17,879.2,85.1,14,21
+Hyper Andromeda Outpost Lambda,Jupiter Jumbo,Party,1300,371,482300,106,243.47,82.3,11,14
+Neo Betelgeuse Outpost Zeta,Venus Veggie Delight,Party,1150,448,515200,79,557.38,89.7,10,5
+Cosmo Cygnus Research Facility Beta,Jupiter Jumbo,Large,950,459,436050,50,39.08,71.2,18,1
+Cosmo Deneb Research Facility Alpha,Martian Special,Party,1200,432,518400,112,666.88,82.6,13,8
+Interstellar Lyra Mining Facility Zeta,Martian Special,Small,500,268,134000,77,323.1,63.5,17,3
+Nebula Deneb Research Outpost Sigma,Venus Veggie Delight,Small,450,435,195750,22,897.93,76.5,12,12
+Galactic Vega Research Outpost Forge,Saturn Supreme,Small,550,39,21450,58,888.13,90.0,3,22
+Hyper Pollux Colony Station Alpha,Saturn Supreme,Party,1250,210,262500,69,325.36,87.7,16,21
+Neo Pollux Planetary Colony Pi,Martian Special,Party,1200,85,102000,11,900.97,99.6,18,10
+Quantum Sirius Prime Outpost Prime,Venus Veggie Delight,Party,1150,424,487600,69,996.16,71.1,8,12
+Orion Outpost Prime,Saturn Supreme,Large,900,54,48600,14,825.43,79.9,6,10
+Nebula Orion Prime Outpost Forge,Saturn Supreme,Large,900,364,327600,53,844.89,73.2,0,18
+Neo Castor Planetary Colony Gamma,Saturn Supreme,Large,900,392,352800,36,249.08,77.6,6,7
+Regulus Prime Outpost Epsilon,Saturn Supreme,Party,1250,6,7500,41,576.74,94.3,6,6
+Galactic Cygnus Mining Facility Omega,Jupiter Jumbo,Small,600,394,236400,30,67.35,87.4,19,15
+Galactic Orion Exo-Planet Haven Gamma,Venus Veggie Delight,Small,450,58,26100,17,95.01,95.3,6,2
+Quantum Lyra Research Facility Major,Venus Veggie Delight,Large,800,110,88000,111,998.89,68.1,7,16
+Stellar Proxima Centauri Research Facility Forge,Martian Special,Large,850,264,224400,81,326.71,94.9,15,17
+Nebula Altair Planetary Colony Epsilon,Venus Veggie Delight,Small,450,314,141300,59,748.21,62.4,2,14
+Interstellar Pollux Exo-Planet Haven Alpha,Venus Veggie Delight,Large,800,481,384800,76,806.68,95.5,12,16
+Galactic Sirius Mining Facility Major,Martian Special,Large,850,195,165750,53,858.04,73.2,9,10
+Astro Betelgeuse Research Facility Pi,Saturn Supreme,Large,900,406,365400,67,997.63,72.6,17,4
+Exo Lyra Prime Outpost Tau,Jupiter Jumbo,Small,600,222,133200,12,241.57,80.5,6,15
+Pollux Research Outpost Omega,Jupiter Jumbo,Party,1300,48,62400,95,40.45,97.6,4,14
+Exo Lyra Planetary Colony Lambda,Venus Veggie Delight,Party,1150,166,190900,79,411.25,61.9,6,9
+Quantum Cygnus Planetary Colony Lambda,Jupiter Jumbo,Large,950,206,195700,11,130.17,74.1,16,13
+Stellar Deneb Space Station Beta,Jupiter Jumbo,Large,950,450,427500,96,22.52,94.3,3,1
+Astro Castor Mining Facility Sigma,Martian Special,Party,1200,488,585600,53,360.49,75.8,15,15
+Galactic Andromeda Exo-Planet Haven Epsilon,Venus Veggie Delight,Party,1150,274,315100,11,783.76,68.0,18,18
+Hyper Cygnus Research Outpost Prime,Venus Veggie Delight,Small,450,355,159750,111,566.22,77.0,9,7
+Aldebaran Exo-Planet Haven Zeta,Martian Special,Small,500,308,154000,90,312.85,75.4,2,14
+Neo Polaris Space Station Omega,Venus Veggie Delight,Small,450,275,123750,44,654.38,96.6,2,9
+Astro Betelgeuse Research Facility Epsilon,Jupiter Jumbo,Party,1300,460,598000,107,232.09,90.5,16,4
+Cosmo Deneb Research Outpost Prime,Martian Special,Large,850,466,396100,96,14.48,80.2,9,19
+Stellar Rigel Colony Station Zeta,Venus Veggie Delight,Large,800,219,175200,39,764.38,99.5,16,15
+Galactic Regulus Colony Station Alpha,Jupiter Jumbo,Large,950,256,243200,17,623.78,78.6,16,20
+Cosmo Rigel Research Outpost Beta,Venus Veggie Delight,Large,800,194,155200,31,762.33,62.3,3,21
+Galactic Vega Lunar Base Nova,Jupiter Jumbo,Small,600,300,180000,53,39.03,70.5,5,11
+Orion Planetary Colony Major,Martian Special,Party,1200,217,260400,67,837.14,77.4,11,22
+Exo Aldebaran Prime Outpost Sigma,Venus Veggie Delight,Small,450,212,95400,45,619.56,66.3,19,12
+Quantum Orion Space Station Tau,Venus Veggie Delight,Party,1150,241,277150,78,563.44,97.9,16,8
+Quantum Aldebaran Research Outpost Alpha,Martian Special,Large,850,342,290700,86,624.65,90.7,16,16
+Galactic Aldebaran Mining Facility Beta,Martian Special,Small,500,371,185500,102,864.45,70.7,9,19
+Quantum Altair Outpost Pi,Jupiter Jumbo,Party,1300,57,74100,40,586.98,83.6,6,11
+Neo Antares Mining Facility Nova,Jupiter Jumbo,Large,950,284,269800,56,580.99,88.9,15,4
+Hyper Arcturus Exo-Planet Haven Pi,Jupiter Jumbo,Small,600,414,248400,64,990.68,97.7,12,23
+Interstellar Orion Research Outpost Omega,Martian Special,Party,1200,221,265200,89,756.75,95.3,2,11
+Interstellar Capella Lunar Base Beta,Jupiter Jumbo,Large,950,256,243200,115,442.35,80.6,1,0
+Stellar Cygnus Lunar Base Omega,Venus Veggie Delight,Party,1150,192,220800,71,707.43,91.0,15,19
+Exo Capella Colony Station Major,Saturn Supreme,Large,900,384,345600,39,389.29,82.5,5,15
+Neo Altair Exo-Planet Haven Alpha,Jupiter Jumbo,Large,950,497,472150,64,228.95,82.1,5,11
+Nebula Cygnus Research Outpost Prime,Jupiter Jumbo,Party,1300,45,58500,25,596.89,64.6,12,8
+Nebula Aldebaran Lunar Base Sigma,Martian Special,Large,850,161,136850,21,928.19,65.0,6,12
+Galactic Aldebaran Prime Outpost Epsilon,Martian Special,Party,1200,19,22800,26,929.15,81.2,4,16
+Stellar Capella Prime Outpost Nova,Jupiter Jumbo,Small,600,305,183000,25,341.97,70.8,6,16
+Astro Vega Outpost Zeta,Venus Veggie Delight,Party,1150,69,79350,21,527.72,60.8,1,3
+Exo Deneb Mining Facility Major,Jupiter Jumbo,Small,600,349,209400,17,211.71,88.9,16,13
+Cosmo Sirius Lunar Base Forge,Venus Veggie Delight,Party,1150,331,380650,93,995.63,61.3,12,18
+Galactic Altair Exo-Planet Haven Epsilon,Jupiter Jumbo,Small,600,13,7800,12,981.12,83.8,15,6
+Astro Aldebaran Lunar Base Gamma,Martian Special,Party,1200,348,417600,25,649.54,81.6,19,2
+Astro Deneb Space Station Nova,Martian Special,Small,500,133,66500,39,804.43,98.8,1,0
+Cosmo Capella Space Station Forge,Saturn Supreme,Party,1250,496,620000,118,715.13,79.4,4,11
+Nebula Lyra Outpost Epsilon,Jupiter Jumbo,Small,600,140,84000,32,593.2,62.5,17,14
+Neo Lyra Exo-Planet Haven Nova,Venus Veggie Delight,Party,1150,476,547400,101,53.44,82.1,6,10
+Cosmo Regulus Prime Outpost Omega,Saturn Supreme,Small,550,67,36850,113,454.82,93.6,10,9
+Galactic Spica Research Facility Delta,Venus Veggie Delight,Party,1150,143,164450,14,674.82,99.9,10,1
+Andromeda Colony Station Delta,Jupiter Jumbo,Large,950,85,80750,93,677.56,77.2,16,3
+Quantum Sirius Exo-Planet Haven Epsilon,Jupiter Jumbo,Party,1300,396,514800,113,373.19,72.8,15,16
+Castor Lunar Base Prime,Venus Veggie Delight,Party,1150,167,192050,117,941.7,96.3,12,16
+Interstellar Lyra Mining Facility Tau,Saturn Supreme,Small,550,423,232650,74,167.44,67.6,4,7
+Interstellar Rigel Research Outpost Zeta,Venus Veggie Delight,Small,450,293,131850,39,500.41,84.6,19,22
+Interstellar Antares Prime Outpost Pi,Saturn Supreme,Party,1250,383,478750,30,690.91,76.2,15,13
+Stellar Spica Outpost Lambda,Venus Veggie Delight,Large,800,265,212000,93,697.17,61.6,15,23
+Regulus Mining Facility Sigma,Saturn Supreme,Large,900,494,444600,79,648.67,73.9,15,3
+Cosmo Antares Outpost Nova,Jupiter Jumbo,Large,950,235,223250,31,275.36,70.6,13,5
+Quantum Proxima Centauri Planetary Colony Tau,Venus Veggie Delight,Large,800,45,36000,91,156.29,87.4,5,18
+Cosmo Orion Space Station Tau,Saturn Supreme,Party,1250,32,40000,81,635.98,98.0,1,23
+Exo Spica Research Outpost Epsilon,Martian Special,Small,500,139,69500,112,599.34,70.7,13,3
+Interstellar Altair Research Facility Alpha,Saturn Supreme,Party,1250,205,256250,41,179.44,92.5,15,2
+Hyper Pollux Colony Station Forge,Venus Veggie Delight,Large,800,332,265600,42,705.17,62.2,19,19
+Galactic Spica Prime Outpost Pi,Saturn Supreme,Small,550,272,149600,25,455.23,81.5,12,5
+Exo Aldebaran Colony Station Delta,Venus Veggie Delight,Small,450,422,189900,85,667.79,62.8,14,22
+Quantum Antares Research Facility Beta,Venus Veggie Delight,Party,1150,37,42550,47,837.38,97.4,11,6
+Interstellar Cygnus Colony Station Delta,Venus Veggie Delight,Party,1150,52,59800,107,169.81,90.7,8,13
+Orion Exo-Planet Haven Delta,Saturn Supreme,Large,900,411,369900,23,19.24,86.3,17,11
+Stellar Lyra Mining Facility Beta,Venus Veggie Delight,Large,800,66,52800,45,779.12,93.0,13,15
+Galactic Polaris Colony Station Prime,Jupiter Jumbo,Party,1300,220,286000,106,609.74,85.9,19,19
+Quantum Rigel Mining Facility Gamma,Martian Special,Party,1200,297,356400,32,699.67,98.8,3,7
+Quantum Andromeda Planetary Colony Gamma,Jupiter Jumbo,Party,1300,103,133900,118,838.17,88.6,7,22
+Cosmo Polaris Colony Station Delta,Venus Veggie Delight,Large,800,176,140800,75,802.83,97.0,7,1
+Cosmo Vega Mining Facility Pi,Venus Veggie Delight,Small,450,364,163800,114,960.92,80.7,15,12
+Cosmo Capella Prime Outpost Sigma,Saturn Supreme,Large,900,218,196200,94,535.98,64.7,9,7
+Neo Regulus Outpost Delta,Venus Veggie Delight,Party,1150,479,550850,11,488.55,81.1,16,20
+Neo Arcturus Exo-Planet Haven Tau,Martian Special,Large,850,39,33150,100,401.95,65.1,0,19
+Cosmo Aldebaran Colony Station Sigma,Venus Veggie Delight,Small,450,453,203850,82,153.78,83.7,17,15
+Exo Castor Mining Facility Delta,Martian Special,Party,1200,231,277200,74,572.65,79.3,9,3
+Interstellar Cygnus Outpost Delta,Saturn Supreme,Large,900,105,94500,84,277.08,84.9,3,15
+Neo Capella Lunar Base Omega,Venus Veggie Delight,Small,450,435,195750,76,921.32,60.4,0,19
+Capella Space Station Pi,Saturn Supreme,Small,550,466,256300,61,583.23,67.8,3,5
+Hyper Rigel Prime Outpost Epsilon,Saturn Supreme,Small,550,135,74250,71,592.88,79.7,3,3
+Neo Capella Prime Outpost Forge,Martian Special,Large,850,261,221850,32,354.99,98.0,3,15
+Proxima Centauri Planetary Colony Omega,Venus Veggie Delight,Large,800,9,7200,35,52.08,75.3,16,22
+Cosmo Rigel Research Facility Alpha,Martian Special,Small,500,222,111000,77,31.84,77.0,8,22
+Neo Cygnus Outpost Major,Martian Special,Large,850,259,220150,91,423.39,88.6,18,20
+Interstellar Spica Lunar Base Major,Saturn Supreme,Small,550,402,221100,64,84.66,84.2,12,12
+Cosmo Cygnus Outpost Beta,Saturn Supreme,Party,1250,363,453750,15,606.89,72.0,3,4
+Stellar Antares Research Outpost Sigma,Martian Special,Party,1200,287,344400,44,880.98,76.4,4,14
+Exo Vega Lunar Base Nova,Martian Special,Large,850,397,337450,31,882.93,68.7,12,7
+Sirius Research Outpost Tau,Martian Special,Party,1200,211,253200,52,659.08,98.6,15,6
+Neo Orion Mining Facility Pi,Martian Special,Large,850,19,16150,24,211.31,65.2,4,13
+Neo Castor Space Station Nova,Venus Veggie Delight,Party,1150,350,402500,95,863.01,74.9,7,6
+Quantum Antares Planetary Colony Forge,Venus Veggie Delight,Party,1150,46,52900,69,886.1,61.0,15,21
+Interstellar Spica Exo-Planet Haven Tau,Martian Special,Small,500,384,192000,110,196.73,68.9,0,6
+Galactic Betelgeuse Prime Outpost Forge,Jupiter Jumbo,Party,1300,465,604500,115,737.45,91.2,5,22
+Stellar Betelgeuse Exo-Planet Haven Prime,Venus Veggie Delight,Large,800,183,146400,21,286.59,68.0,10,17
+Nebula Proxima Centauri Exo-Planet Haven Forge,Martian Special,Party,1200,67,80400,58,802.66,63.2,15,9
+Capella Outpost Sigma,Martian Special,Party,1200,356,427200,51,997.24,79.0,4,17
+Interstellar Sirius Prime Outpost Sigma,Martian Special,Small,500,235,117500,47,30.12,60.4,15,13
+Orion Planetary Colony Sigma,Jupiter Jumbo,Small,600,245,147000,91,897.38,63.4,6,9
+Astro Castor Planetary Colony Tau,Martian Special,Small,500,56,28000,54,622.67,92.3,18,6
+Nebula Vega Lunar Base Epsilon,Venus Veggie Delight,Small,450,100,45000,44,973.39,90.9,0,6
+Cosmo Arcturus Planetary Colony Epsilon,Venus Veggie Delight,Large,800,392,313600,39,465.06,96.6,8,6
+Polaris Research Outpost Pi,Saturn Supreme,Small,550,226,124300,97,847.4,94.2,17,4
+Cosmo Antares Planetary Colony Gamma,Saturn Supreme,Small,550,489,268950,115,62.49,87.3,12,0
+Galactic Spica Space Station Gamma,Venus Veggie Delight,Small,450,411,184950,39,335.35,62.1,14,13
+Quantum Pollux Exo-Planet Haven Forge,Jupiter Jumbo,Party,1300,235,305500,87,67.11,91.3,2,17
+Exo Antares Research Facility Gamma,Jupiter Jumbo,Party,1300,241,313300,15,975.35,93.8,9,12
+Nebula Cygnus Lunar Base Pi,Saturn Supreme,Small,550,147,80850,76,816.99,92.0,8,7
+Interstellar Sirius Exo-Planet Haven Lambda,Venus Veggie Delight,Small,450,175,78750,89,852.56,80.3,12,7
+Hyper Orion Research Facility Forge,Venus Veggie Delight,Party,1150,33,37950,16,937.97,69.3,15,9
+Nebula Capella Lunar Base Zeta,Martian Special,Large,850,40,34000,61,85.19,93.8,2,16
+Hyper Polaris Space Station Delta,Jupiter Jumbo,Small,600,17,10200,23,385.66,89.1,14,5
+Interstellar Arcturus Exo-Planet Haven Major,Martian Special,Large,850,164,139400,82,71.13,99.2,16,14
+Astro Castor Exo-Planet Haven Epsilon,Martian Special,Large,850,331,281350,24,210.87,66.2,13,14
+Neo Pollux Mining Facility Prime,Martian Special,Small,500,191,95500,30,229.44,69.0,6,15
+Interstellar Aldebaran Research Facility Epsilon,Martian Special,Party,1200,247,296400,44,469.16,68.5,19,7
+Interstellar Antares Research Facility Delta,Jupiter Jumbo,Small,600,90,54000,75,268.64,91.7,15,18
+Neo Sirius Exo-Planet Haven Nova,Martian Special,Small,500,288,144000,100,101.07,67.5,7,19
+Cosmo Orion Exo-Planet Haven Omega,Saturn Supreme,Large,900,70,63000,11,167.57,62.7,3,14
+Nebula Arcturus Research Facility Epsilon,Venus Veggie Delight,Small,450,174,78300,44,147.36,99.9,19,2
+Exo Arcturus Outpost Sigma,Martian Special,Large,850,49,41650,91,973.08,61.0,14,5
+Exo Polaris Lunar Base Sigma,Venus Veggie Delight,Large,800,66,52800,87,759.32,93.4,4,7
+Hyper Cygnus Exo-Planet Haven Beta,Martian Special,Small,500,445,222500,29,967.76,74.6,12,15
+Interstellar Altair Mining Facility Major,Venus Veggie Delight,Small,450,138,62100,91,439.8,93.7,5,14
+Stellar Deneb Space Station Nova,Saturn Supreme,Large,900,288,259200,19,278.44,82.2,4,12
+Interstellar Antares Exo-Planet Haven Sigma,Saturn Supreme,Small,550,32,17600,34,798.31,96.1,16,19
+Nebula Pollux Prime Outpost Beta,Venus Veggie Delight,Small,450,112,50400,75,326.32,97.0,6,14
+Stellar Andromeda Exo-Planet Haven Nova,Jupiter Jumbo,Large,950,48,45600,34,299.45,60.4,5,17
+Galactic Betelgeuse Exo-Planet Haven Zeta,Jupiter Jumbo,Small,600,344,206400,63,232.58,63.0,1,12
+Exo Rigel Exo-Planet Haven Zeta,Venus Veggie Delight,Large,800,290,232000,42,129.77,70.0,10,23
+Neo Deneb Exo-Planet Haven Sigma,Saturn Supreme,Small,550,450,247500,45,256.54,86.8,6,7
+Quantum Antares Planetary Colony Pi,Martian Special,Large,850,335,284750,104,355.38,95.5,7,13
+Neo Regulus Exo-Planet Haven Delta,Saturn Supreme,Party,1250,132,165000,23,674.03,78.4,4,10
+Hyper Spica Lunar Base Alpha,Venus Veggie Delight,Party,1150,352,404800,74,62.66,84.3,17,5
+Neo Cygnus Research Facility Prime,Martian Special,Small,500,477,238500,119,210.59,67.5,15,23
+Stellar Capella Research Facility Prime,Venus Veggie Delight,Large,800,235,188000,89,809.04,92.2,13,0
+Nebula Vega Space Station Alpha,Martian Special,Small,500,194,97000,63,147.01,98.7,11,1
+Nebula Lyra Planetary Colony Nova,Jupiter Jumbo,Large,950,229,217550,119,342.71,70.7,16,12
+Stellar Deneb Outpost Forge,Jupiter Jumbo,Large,950,389,369550,61,864.67,79.8,4,0
+Nebula Castor Mining Facility Tau,Martian Special,Large,850,381,323850,12,155.01,63.4,13,23
+Exo Capella Research Facility Lambda,Jupiter Jumbo,Small,600,287,172200,108,82.83,82.4,5,23
+Hyper Lyra Prime Outpost Gamma,Martian Special,Small,500,450,225000,50,484.59,80.1,14,3
+Astro Regulus Prime Outpost Zeta,Jupiter Jumbo,Large,950,125,118750,15,302.49,65.8,6,23
+Nebula Altair Mining Facility Omega,Martian Special,Party,1200,120,144000,34,563.45,77.7,13,22
+Interstellar Cygnus Planetary Colony Alpha,Martian Special,Small,500,465,232500,22,803.82,73.4,17,1
+Interstellar Betelgeuse Colony Station Prime,Venus Veggie Delight,Small,450,237,106650,107,137.23,80.9,0,20
+Quantum Proxima Centauri Outpost Delta,Venus Veggie Delight,Small,450,263,118350,17,580.74,83.4,5,19
+Nebula Antares Exo-Planet Haven Zeta,Saturn Supreme,Party,1250,363,453750,30,505.56,60.3,2,15
+Interstellar Lyra Exo-Planet Haven Sigma,Jupiter Jumbo,Party,1300,202,262600,107,144.16,90.4,4,2
+Hyper Sirius Mining Facility Lambda,Venus Veggie Delight,Party,1150,460,529000,77,624.04,88.5,11,16
+Astro Regulus Mining Facility Gamma,Saturn Supreme,Party,1250,415,518750,34,273.71,74.7,10,4
+Stellar Deneb Mining Facility Omega,Venus Veggie Delight,Small,450,141,63450,88,487.89,62.1,12,7
+Quantum Cygnus Space Station Prime,Jupiter Jumbo,Small,600,322,193200,77,82.36,90.2,15,11
+Neo Betelgeuse Exo-Planet Haven Forge,Jupiter Jumbo,Small,600,169,101400,54,459.64,98.2,17,22
+Nebula Lyra Research Facility Prime,Jupiter Jumbo,Small,600,229,137400,69,306.53,69.6,16,11
+Hyper Lyra Outpost Beta,Martian Special,Large,850,311,264350,21,822.4,72.9,16,0
+Exo Deneb Research Facility Delta,Jupiter Jumbo,Party,1300,238,309400,41,57.07,67.4,10,0
+Stellar Castor Research Outpost Lambda,Saturn Supreme,Party,1250,176,220000,105,418.67,83.1,19,14
+Cosmo Polaris Prime Outpost Beta,Jupiter Jumbo,Large,950,156,148200,101,458.49,66.2,9,16
+Neo Sirius Mining Facility Omega,Jupiter Jumbo,Party,1300,467,607100,22,725.03,74.2,15,1
+Nebula Regulus Research Outpost Tau,Martian Special,Large,850,319,271150,40,574.33,87.9,1,16
+Cygnus Prime Outpost Zeta,Martian Special,Large,850,378,321300,87,667.25,82.4,16,19
+Quantum Antares Colony Station Omega,Venus Veggie Delight,Small,450,164,73800,29,777.07,75.5,19,8
+Hyper Cygnus Space Station Forge,Venus Veggie Delight,Small,450,100,45000,27,862.22,76.8,9,11
+Cosmo Antares Planetary Colony Delta,Jupiter Jumbo,Small,600,476,285600,102,313.94,82.5,12,3
+Galactic Aldebaran Lunar Base Major,Venus Veggie Delight,Party,1150,237,272550,69,538.07,60.2,11,12
+Altair Space Station Major,Saturn Supreme,Large,900,184,165600,72,840.12,63.1,14,3
+Cosmo Antares Exo-Planet Haven Omega,Saturn Supreme,Large,900,117,105300,15,989.45,95.3,6,6
+Cosmo Deneb Research Outpost Delta,Saturn Supreme,Large,900,322,289800,41,889.53,63.1,12,13
+Stellar Polaris Exo-Planet Haven Major,Martian Special,Party,1200,446,535200,102,371.53,88.3,11,8
+Stellar Capella Colony Station Pi,Martian Special,Small,500,56,28000,52,195.25,96.8,11,22
+Neo Deneb Research Facility Gamma,Saturn Supreme,Large,900,272,244800,11,489.44,70.8,1,0
+Neo Andromeda Colony Station Major,Jupiter Jumbo,Small,600,299,179400,69,741.67,74.8,4,0
+Nebula Antares Research Facility Tau,Venus Veggie Delight,Small,450,390,175500,32,492.62,82.8,1,19
+Neo Andromeda Exo-Planet Haven Epsilon,Martian Special,Large,850,391,332350,92,483.23,95.3,19,3
+Quantum Lyra Research Facility Lambda,Jupiter Jumbo,Large,950,117,111150,40,838.25,97.7,12,0
+Hyper Altair Research Outpost Omega,Venus Veggie Delight,Large,800,105,84000,14,361.47,89.6,2,21
+Nebula Orion Space Station Beta,Venus Veggie Delight,Small,450,117,52650,92,859.81,63.5,10,9
+Exo Proxima Centauri Colony Station Gamma,Saturn Supreme,Large,900,444,399600,43,406.86,86.8,15,1
+Stellar Orion Planetary Colony Delta,Jupiter Jumbo,Large,950,85,80750,19,328.3,76.4,0,20
+Stellar Rigel Research Facility Lambda,Jupiter Jumbo,Large,950,191,181450,98,454.04,78.8,18,23
+Astro Pollux Exo-Planet Haven Gamma,Saturn Supreme,Small,550,117,64350,11,762.47,62.0,10,14
+Hyper Antares Mining Facility Delta,Saturn Supreme,Large,900,6,5400,20,126.09,67.6,8,2
+Exo Rigel Outpost Nova,Saturn Supreme,Party,1250,134,167500,59,196.5,91.6,13,22
+Nebula Pollux Space Station Pi,Saturn Supreme,Large,900,224,201600,40,951.45,78.2,8,8
+Stellar Cygnus Outpost Major,Jupiter Jumbo,Small,600,58,34800,65,175.57,72.1,6,16
+Exo Cygnus Research Outpost Beta,Venus Veggie Delight,Party,1150,347,399050,88,567.77,75.4,15,20
+Astro Regulus Prime Outpost Omega,Venus Veggie Delight,Small,450,489,220050,82,579.36,94.2,2,12
+Hyper Rigel Research Facility Epsilon,Saturn Supreme,Party,1250,228,285000,96,489.68,90.0,18,2
+Hyper Arcturus Lunar Base Epsilon,Saturn Supreme,Party,1250,229,286250,92,644.78,70.9,3,3
+Exo Capella Research Facility Lambda,Saturn Supreme,Large,900,389,350100,18,229.9,64.7,6,3
+Galactic Andromeda Mining Facility Forge,Saturn Supreme,Large,900,407,366300,108,552.71,70.1,11,10
+Cosmo Orion Outpost Zeta,Venus Veggie Delight,Small,450,130,58500,30,372.24,96.8,17,6
+Galactic Antares Outpost Gamma,Saturn Supreme,Large,900,134,120600,82,661.7,83.3,4,10
+Rigel Research Facility Zeta,Martian Special,Party,1200,57,68400,37,141.31,81.3,9,23
+Quantum Pollux Prime Outpost Major,Saturn Supreme,Party,1250,176,220000,71,570.92,83.9,11,10
+Stellar Spica Planetary Colony Epsilon,Venus Veggie Delight,Large,800,222,177600,119,185.35,74.6,7,9
+Hyper Proxima Centauri Space Station Gamma,Martian Special,Small,500,164,82000,16,278.72,92.3,18,4
+Rigel Planetary Colony Delta,Venus Veggie Delight,Small,450,202,90900,89,218.79,80.9,14,12
+Astro Polaris Prime Outpost Sigma,Jupiter Jumbo,Small,600,420,252000,25,182.92,64.7,0,11
+Cosmo Sirius Lunar Base Pi,Martian Special,Small,500,251,125500,106,825.73,65.2,2,9
+Deneb Outpost Major,Venus Veggie Delight,Party,1150,328,377200,13,285.78,81.5,17,6
+Antares Colony Station Zeta,Martian Special,Small,500,443,221500,13,927.13,97.5,17,18
+Nebula Sirius Mining Facility Omega,Jupiter Jumbo,Small,600,207,124200,112,969.93,72.3,1,18
+Lyra Mining Facility Sigma,Saturn Supreme,Party,1250,188,235000,49,571.3,94.8,4,18
+Stellar Aldebaran Planetary Colony Tau,Venus Veggie Delight,Small,450,127,57150,26,143.09,90.6,0,11
+Altair Research Facility Alpha,Martian Special,Small,500,405,202500,110,374.61,69.9,9,19
+Astro Proxima Centauri Research Outpost Major,Martian Special,Party,1200,259,310800,112,797.75,61.5,19,21
+Neo Lyra Lunar Base Major,Jupiter Jumbo,Large,950,298,283100,61,367.45,64.1,9,14
+Cosmo Rigel Mining Facility Epsilon,Jupiter Jumbo,Small,600,284,170400,102,87.11,89.1,4,4
+Cosmo Regulus Space Station Alpha,Venus Veggie Delight,Small,450,329,148050,61,556.83,68.0,17,23
+Quantum Sirius Prime Outpost Pi,Jupiter Jumbo,Party,1300,376,488800,45,845.14,74.9,14,13
+Cosmo Castor Mining Facility Delta,Saturn Supreme,Small,550,102,56100,47,795.95,80.1,19,11
+Nebula Rigel Mining Facility Delta,Venus Veggie Delight,Party,1150,202,232300,112,175.21,89.0,7,20
+Cygnus Research Facility Beta,Saturn Supreme,Party,1250,474,592500,59,672.8,64.5,16,10
+Proxima Centauri Research Facility Lambda,Venus Veggie Delight,Large,800,399,319200,72,220.58,76.3,11,4
+Astro Deneb Space Station Prime,Venus Veggie Delight,Large,800,244,195200,110,218.29,79.4,11,15
+Hyper Arcturus Prime Outpost Beta,Venus Veggie Delight,Party,1150,148,170200,72,874.08,81.6,0,17
+Aldebaran Exo-Planet Haven Delta,Martian Special,Large,850,101,85850,71,249.74,92.7,3,11
+Astro Andromeda Outpost Pi,Venus Veggie Delight,Small,450,205,92250,108,263.32,66.9,7,4
+Hyper Altair Mining Facility Gamma,Martian Special,Large,850,128,108800,16,0.75,92.3,0,15
+Nebula Arcturus Prime Outpost Beta,Venus Veggie Delight,Small,450,191,85950,36,870.68,87.7,14,11
+Astro Proxima Centauri Outpost Beta,Saturn Supreme,Small,550,330,181500,101,792.62,82.2,17,22
+Neo Regulus Research Outpost Lambda,Martian Special,Party,1200,468,561600,95,627.37,88.0,0,1
+Nebula Antares Exo-Planet Haven Tau,Saturn Supreme,Small,550,353,194150,23,750.29,76.5,10,5
+Interstellar Castor Lunar Base Nova,Jupiter Jumbo,Party,1300,263,341900,80,152.13,65.5,1,22
+Andromeda Prime Outpost Beta,Martian Special,Party,1200,152,182400,110,458.38,86.6,0,20
+Rigel Planetary Colony Lambda,Martian Special,Small,500,256,128000,95,351.28,81.0,11,3
+Vega Exo-Planet Haven Tau,Martian Special,Large,850,447,379950,14,93.87,85.6,15,12
+Hyper Vega Prime Outpost Major,Saturn Supreme,Small,550,424,233200,64,486.18,73.5,9,9
+Quantum Sirius Exo-Planet Haven Major,Venus Veggie Delight,Small,450,407,183150,11,920.75,96.3,17,16
+Cosmo Betelgeuse Mining Facility Alpha,Martian Special,Small,500,350,175000,71,40.16,83.5,14,13
+Exo Arcturus Colony Station Epsilon,Venus Veggie Delight,Large,800,455,364000,100,291.53,63.4,16,23
+Astro Betelgeuse Exo-Planet Haven Lambda,Jupiter Jumbo,Small,600,151,90600,30,207.62,78.0,9,14
+Hyper Lyra Lunar Base Tau,Venus Veggie Delight,Large,800,152,121600,111,238.22,90.3,2,7
+Stellar Spica Planetary Colony Alpha,Martian Special,Large,850,356,302600,88,908.44,91.8,15,22
+Interstellar Capella Colony Station Major,Venus Veggie Delight,Party,1150,203,233450,30,468.12,79.8,5,23
+Stellar Capella Research Outpost Beta,Martian Special,Large,850,312,265200,19,466.35,95.8,2,17
+Exo Altair Research Facility Major,Martian Special,Large,850,493,419050,96,760.6,70.7,8,2
+Cygnus Prime Outpost Gamma,Saturn Supreme,Party,1250,421,526250,67,154.58,76.4,10,16
+Arcturus Planetary Colony Omega,Venus Veggie Delight,Large,800,428,342400,48,487.32,95.9,12,23
+Interstellar Antares Research Outpost Forge,Venus Veggie Delight,Small,450,132,59400,14,430.04,95.9,17,23
+Exo Polaris Prime Outpost Nova,Saturn Supreme,Small,550,43,23650,74,596.95,87.4,3,6
+Sirius Research Facility Lambda,Venus Veggie Delight,Large,800,342,273600,22,999.56,94.4,7,12
+Astro Aldebaran Planetary Colony Alpha,Jupiter Jumbo,Small,600,364,218400,94,769.47,63.6,12,15
+Neo Vega Exo-Planet Haven Delta,Saturn Supreme,Large,900,133,119700,99,397.93,94.6,9,4
+Stellar Altair Mining Facility Lambda,Saturn Supreme,Small,550,271,149050,118,827.57,72.8,1,3
+Exo Rigel Outpost Delta,Jupiter Jumbo,Party,1300,480,624000,94,170.79,67.1,7,9
+Galactic Deneb Outpost Forge,Saturn Supreme,Small,550,445,244750,62,30.56,69.6,5,12
+Quantum Aldebaran Planetary Colony Pi,Martian Special,Large,850,477,405450,91,204.53,76.7,15,9
+Hyper Castor Outpost Beta,Jupiter Jumbo,Small,600,438,262800,110,340.48,70.0,17,13
+Neo Arcturus Mining Facility Delta,Martian Special,Party,1200,155,186000,54,510.63,72.8,16,21
+Hyper Orion Lunar Base Prime,Venus Veggie Delight,Large,800,419,335200,41,615.17,65.4,5,11
+Arcturus Colony Station Lambda,Martian Special,Party,1200,482,578400,45,910.61,71.8,12,0
+Arcturus Research Outpost Gamma,Martian Special,Party,1200,302,362400,90,509.9,82.9,13,20
+Astro Andromeda Planetary Colony Pi,Venus Veggie Delight,Party,1150,103,118450,108,501.33,77.7,9,19
+Hyper Sirius Mining Facility Omega,Venus Veggie Delight,Small,450,267,120150,69,50.34,73.9,10,19
+Castor Research Outpost Zeta,Martian Special,Small,500,256,128000,20,35.01,89.9,12,6
+Galactic Orion Space Station Tau,Saturn Supreme,Small,550,148,81400,72,551.2,95.7,11,8
+Nebula Andromeda Planetary Colony Pi,Saturn Supreme,Small,550,350,192500,30,438.23,90.3,8,7
+Exo Andromeda Prime Outpost Nova,Saturn Supreme,Large,900,116,104400,61,839.2,73.3,3,12
+Interstellar Polaris Space Station Tau,Jupiter Jumbo,Small,600,64,38400,64,160.76,89.8,6,13
+Nebula Proxima Centauri Exo-Planet Haven Pi,Jupiter Jumbo,Small,600,373,223800,35,25.07,66.1,1,11
+Quantum Rigel Colony Station Beta,Venus Veggie Delight,Large,800,6,4800,77,449.09,65.2,6,7
+Quantum Altair Research Outpost Alpha,Saturn Supreme,Small,550,389,213950,43,237.55,73.8,8,20
+Neo Arcturus Mining Facility Forge,Venus Veggie Delight,Small,450,308,138600,61,49.71,92.3,4,21
+Galactic Proxima Centauri Space Station Beta,Jupiter Jumbo,Large,950,258,245100,91,724.63,69.9,14,17
+Neo Rigel Outpost Epsilon,Martian Special,Large,850,144,122400,113,111.68,62.5,17,15
+Stellar Sirius Research Facility Delta,Saturn Supreme,Large,900,457,411300,108,608.36,65.3,3,10
+Galactic Pollux Prime Outpost Prime,Venus Veggie Delight,Party,1150,41,47150,114,281.12,94.3,18,15
+Hyper Pollux Mining Facility Forge,Venus Veggie Delight,Large,800,164,131200,102,173.58,85.4,19,13
+Neo Pollux Exo-Planet Haven Delta,Saturn Supreme,Small,550,13,7150,61,379.81,70.1,6,2
+Proxima Centauri Research Outpost Delta,Martian Special,Party,1200,237,284400,38,801.47,82.2,7,20
+Cosmo Aldebaran Planetary Colony Delta,Venus Veggie Delight,Party,1150,103,118450,47,392.15,81.1,16,1
+Hyper Sirius Planetary Colony Major,Saturn Supreme,Small,550,151,83050,51,750.79,86.2,12,2
+Nebula Rigel Planetary Colony Alpha,Venus Veggie Delight,Large,800,308,246400,30,125.57,69.3,10,3
+Astro Castor Prime Outpost Epsilon,Martian Special,Large,850,212,180200,51,772.79,94.6,0,21
+Galactic Capella Prime Outpost Epsilon,Saturn Supreme,Large,900,135,121500,22,237.01,72.4,1,4
+Astro Spica Colony Station Forge,Saturn Supreme,Large,900,408,367200,114,677.43,87.8,16,9
+Cosmo Altair Planetary Colony Pi,Jupiter Jumbo,Small,600,156,93600,73,565.82,60.6,4,19
+Deneb Mining Facility Gamma,Saturn Supreme,Large,900,58,52200,26,929.15,74.9,5,1
+Hyper Orion Outpost Major,Saturn Supreme,Party,1250,124,155000,18,387.38,74.1,6,11
+Hyper Capella Outpost Sigma,Venus Veggie Delight,Party,1150,165,189750,50,66.26,81.7,14,4
+Stellar Polaris Outpost Major,Martian Special,Large,850,412,350200,10,19.25,62.9,18,4
+Cygnus Lunar Base Alpha,Jupiter Jumbo,Party,1300,120,156000,11,826.88,91.6,15,22
+Antares Planetary Colony Prime,Saturn Supreme,Party,1250,79,98750,69,524.78,68.7,12,0
+Stellar Sirius Outpost Prime,Venus Veggie Delight,Party,1150,117,134550,57,775.27,87.1,4,3
+Galactic Rigel Colony Station Zeta,Jupiter Jumbo,Small,600,460,276000,38,234.5,92.1,2,20
+Nebula Deneb Colony Station Major,Martian Special,Large,850,424,360400,106,345.15,82.5,2,23
+Altair Outpost Major,Martian Special,Large,850,426,362100,19,30.2,89.6,18,11
+Aldebaran Research Outpost Beta,Martian Special,Party,1200,108,129600,67,961.5,86.5,13,11
+Nebula Lyra Lunar Base Prime,Jupiter Jumbo,Party,1300,344,447200,69,667.9,74.2,15,15
+Nebula Pollux Mining Facility Alpha,Jupiter Jumbo,Small,600,258,154800,113,933.21,92.4,16,23
+Antares Mining Facility Pi,Martian Special,Small,500,231,115500,30,265.57,71.8,3,16
+Stellar Arcturus Colony Station Major,Venus Veggie Delight,Small,450,116,52200,37,611.5,82.8,12,20
+Stellar Cygnus Prime Outpost Nova,Jupiter Jumbo,Party,1300,477,620100,84,678.53,89.8,7,9
+Cosmo Deneb Prime Outpost Forge,Venus Veggie Delight,Small,450,103,46350,43,317.62,75.2,18,16
+Deneb Research Outpost Forge,Martian Special,Small,500,157,78500,17,848.12,72.1,4,16
+Cygnus Research Outpost Alpha,Martian Special,Small,500,353,176500,68,947.17,78.4,1,17
+Astro Lyra Lunar Base Major,Venus Veggie Delight,Party,1150,406,466900,95,884.87,92.7,14,1
+Neo Betelgeuse Space Station Forge,Martian Special,Small,500,388,194000,81,739.09,97.2,1,3
+Capella Planetary Colony Alpha,Jupiter Jumbo,Party,1300,370,481000,58,277.54,81.8,10,18
+Proxima Centauri Planetary Colony Sigma,Venus Veggie Delight,Small,450,342,153900,88,281.69,86.5,12,10
+Exo Andromeda Outpost Gamma,Venus Veggie Delight,Party,1150,198,227700,26,963.36,96.1,9,16
+Hyper Polaris Space Station Major,Martian Special,Large,850,314,266900,69,10.38,63.9,2,11
+Astro Polaris Prime Outpost Forge,Venus Veggie Delight,Large,800,167,133600,96,716.08,69.3,4,1
+Stellar Vega Space Station Alpha,Jupiter Jumbo,Party,1300,212,275600,97,706.28,88.4,2,5
+Nebula Vega Planetary Colony Beta,Martian Special,Small,500,449,224500,54,622.73,92.9,5,8
+Hyper Aldebaran Research Facility Forge,Martian Special,Small,500,173,86500,92,990.11,94.3,12,4
+Hyper Aldebaran Exo-Planet Haven Nova,Saturn Supreme,Small,550,488,268400,78,311.95,76.6,9,19
+Exo Altair Lunar Base Gamma,Martian Special,Large,850,165,140250,41,340.04,63.6,18,20
+Stellar Lyra Prime Outpost Delta,Martian Special,Small,500,72,36000,53,79.03,77.5,7,8
+Exo Lyra Research Outpost Nova,Jupiter Jumbo,Party,1300,293,380900,74,442.85,69.2,17,22
+Cosmo Castor Research Outpost Zeta,Martian Special,Party,1200,402,482400,96,261.12,71.6,2,7
+Interstellar Lyra Mining Facility Tau,Jupiter Jumbo,Large,950,281,266950,110,343.45,90.9,16,19
+Quantum Cygnus Exo-Planet Haven Major,Martian Special,Large,850,308,261800,17,834.59,63.0,7,7
+Stellar Proxima Centauri Research Facility Sigma,Jupiter Jumbo,Party,1300,408,530400,86,935.49,93.1,9,21
+Cosmo Betelgeuse Space Station Gamma,Jupiter Jumbo,Large,950,388,368600,81,185.81,77.1,1,20
+Exo Orion Colony Station Epsilon,Saturn Supreme,Party,1250,396,495000,96,372.57,83.8,11,22
+Arcturus Planetary Colony Gamma,Venus Veggie Delight,Party,1150,139,159850,52,928.64,63.6,5,5
+Neo Aldebaran Research Outpost Delta,Jupiter Jumbo,Party,1300,199,258700,10,61.9,73.5,1,2
+Stellar Polaris Prime Outpost Gamma,Saturn Supreme,Party,1250,405,506250,118,92.45,63.6,2,4
+Nebula Capella Outpost Beta,Jupiter Jumbo,Party,1300,132,171600,60,162.87,98.5,16,8
+Stellar Capella Research Outpost Major,Venus Veggie Delight,Large,800,37,29600,33,595.25,92.3,6,6
+Quantum Castor Research Facility Pi,Martian Special,Small,500,180,90000,108,150.56,78.4,4,3
+Galactic Sirius Outpost Pi,Jupiter Jumbo,Large,950,464,440800,33,968.08,68.9,0,6
+Stellar Orion Outpost Forge,Saturn Supreme,Large,900,447,402300,26,446.77,97.3,7,4
+Cosmo Pollux Planetary Colony Gamma,Martian Special,Large,850,375,318750,14,501.57,73.8,11,10
+Astro Polaris Mining Facility Major,Venus Veggie Delight,Party,1150,474,545100,29,246.73,66.4,13,14
+Quantum Sirius Colony Station Omega,Martian Special,Small,500,379,189500,30,471.01,82.5,15,1
+Stellar Pollux Colony Station Nova,Saturn Supreme,Party,1250,26,32500,113,661.95,97.8,9,12
+Galactic Arcturus Space Station Nova,Saturn Supreme,Party,1250,242,302500,67,751.2,60.2,14,21
+Stellar Rigel Exo-Planet Haven Nova,Martian Special,Small,500,162,81000,40,753.89,69.5,14,15
+Quantum Castor Space Station Tau,Jupiter Jumbo,Party,1300,42,54600,119,577.93,97.5,9,6
+Sirius Space Station Tau,Venus Veggie Delight,Large,800,234,187200,109,904.37,66.8,6,7
+Antares Research Facility Tau,Venus Veggie Delight,Party,1150,369,424350,20,817.43,64.5,2,5
+Nebula Regulus Research Facility Omega,Saturn Supreme,Small,550,55,30250,61,757.07,82.8,1,23
+Nebula Castor Lunar Base Pi,Martian Special,Small,500,442,221000,24,55.7,94.5,5,6
+Polaris Space Station Delta,Martian Special,Small,500,268,134000,92,6.98,79.1,8,17
+Stellar Antares Research Facility Omega,Venus Veggie Delight,Small,450,287,129150,16,212.53,99.8,9,21
+Astro Cygnus Prime Outpost Zeta,Venus Veggie Delight,Small,450,31,13950,37,663.56,87.2,3,21
+Galactic Pollux Planetary Colony Beta,Venus Veggie Delight,Party,1150,230,264500,60,411.26,63.0,2,19
+Hyper Spica Research Outpost Zeta,Venus Veggie Delight,Small,450,281,126450,116,402.47,99.7,8,6
+Galactic Lyra Planetary Colony Omega,Jupiter Jumbo,Small,600,290,174000,67,884.6,76.3,16,2
+Stellar Castor Prime Outpost Epsilon,Saturn Supreme,Small,550,101,55550,14,895.57,71.5,13,4
+Cosmo Spica Prime Outpost Epsilon,Venus Veggie Delight,Large,800,288,230400,14,909.18,82.3,9,0
+Neo Spica Prime Outpost Omega,Jupiter Jumbo,Large,950,371,352450,103,313.95,72.2,12,14
+Interstellar Polaris Prime Outpost Delta,Jupiter Jumbo,Small,600,452,271200,105,691.09,63.5,11,2
+Exo Rigel Research Outpost Delta,Jupiter Jumbo,Party,1300,485,630500,17,271.71,60.1,0,7
+Stellar Polaris Planetary Colony Epsilon,Saturn Supreme,Large,900,457,411300,73,190.69,78.0,18,8
+Betelgeuse Research Outpost Nova,Martian Special,Large,850,321,272850,19,184.71,93.5,18,14
+Hyper Spica Colony Station Epsilon,Saturn Supreme,Large,900,308,277200,47,342.17,82.9,5,9
+Nebula Betelgeuse Lunar Base Major,Venus Veggie Delight,Small,450,151,67950,105,430.01,100.0,12,1
+Astro Capella Outpost Tau,Venus Veggie Delight,Party,1150,8,9200,101,830.97,71.5,18,19
+Galactic Castor Research Outpost Tau,Martian Special,Party,1200,39,46800,90,119.98,71.2,12,4
+Polaris Planetary Colony Major,Venus Veggie Delight,Large,800,196,156800,104,734.95,66.4,3,18
+Stellar Deneb Outpost Beta,Saturn Supreme,Large,900,53,47700,17,531.5,66.6,1,12
+Astro Castor Space Station Major,Martian Special,Small,500,21,10500,113,288.02,71.4,14,10
+Stellar Regulus Space Station Lambda,Martian Special,Large,850,176,149600,34,492.87,91.7,11,0
+Galactic Lyra Outpost Alpha,Venus Veggie Delight,Party,1150,224,257600,82,300.01,96.2,6,21
+Nebula Sirius Exo-Planet Haven Epsilon,Jupiter Jumbo,Large,950,162,153900,75,596.12,99.0,19,14
+Cosmo Polaris Space Station Omega,Martian Special,Party,1200,481,577200,88,433.9,69.3,17,17
+Pollux Planetary Colony Omega,Saturn Supreme,Large,900,50,45000,59,164.49,95.3,12,15
+Aldebaran Colony Station Major,Martian Special,Small,500,377,188500,76,116.67,73.1,16,8
+Neo Arcturus Exo-Planet Haven Alpha,Saturn Supreme,Party,1250,10,12500,58,546.74,64.5,3,0
+Interstellar Polaris Research Facility Nova,Jupiter Jumbo,Large,950,103,97850,45,902.42,94.8,13,10
+Interstellar Rigel Space Station Prime,Venus Veggie Delight,Party,1150,384,441600,77,344.02,85.4,19,8
+Astro Altair Colony Station Tau,Jupiter Jumbo,Party,1300,237,308100,87,733.03,66.6,12,22
+Exo Pollux Research Outpost Omega,Venus Veggie Delight,Large,800,41,32800,114,658.7,77.2,2,10
+Galactic Castor Space Station Forge,Martian Special,Large,850,284,241400,50,931.56,71.5,17,12
+Cosmo Rigel Space Station Alpha,Jupiter Jumbo,Small,600,353,211800,98,821.0,89.5,13,1
+Nebula Betelgeuse Research Facility Zeta,Jupiter Jumbo,Large,950,306,290700,71,566.65,78.1,14,13
+Cosmo Arcturus Mining Facility Delta,Jupiter Jumbo,Large,950,185,175750,19,657.06,99.6,2,5
+Nebula Lyra Research Facility Nova,Martian Special,Large,850,99,84150,30,898.4,62.2,0,7
+Exo Orion Exo-Planet Haven Tau,Martian Special,Party,1200,103,123600,45,399.58,74.2,16,17
+Hyper Andromeda Lunar Base Omega,Venus Veggie Delight,Large,800,192,153600,21,326.86,79.3,2,15
+Nebula Spica Research Facility Tau,Saturn Supreme,Party,1250,485,606250,100,10.91,80.1,13,20
+Astro Capella Colony Station Epsilon,Jupiter Jumbo,Small,600,120,72000,113,826.57,72.6,2,11
+Cosmo Betelgeuse Mining Facility Tau,Saturn Supreme,Party,1250,195,243750,11,801.0,89.2,12,10
+Nebula Rigel Exo-Planet Haven Zeta,Jupiter Jumbo,Large,950,257,244150,22,104.54,95.0,14,5
+Antares Lunar Base Epsilon,Saturn Supreme,Party,1250,473,591250,62,576.9,97.5,17,2
+Stellar Pollux Planetary Colony Beta,Venus Veggie Delight,Large,800,420,336000,41,464.04,92.2,13,13
+Stellar Betelgeuse Exo-Planet Haven Delta,Martian Special,Small,500,475,237500,104,118.8,94.0,2,1
+Exo Rigel Outpost Prime,Saturn Supreme,Large,900,165,148500,25,980.57,82.0,18,10
+Interstellar Spica Lunar Base Lambda,Martian Special,Large,850,260,221000,41,214.77,93.0,7,21
+Neo Aldebaran Research Outpost Gamma,Jupiter Jumbo,Party,1300,327,425100,41,67.33,72.1,3,2
+Exo Arcturus Mining Facility Gamma,Jupiter Jumbo,Small,600,132,79200,107,594.89,75.9,3,17
+Stellar Arcturus Mining Facility Zeta,Saturn Supreme,Party,1250,22,27500,20,738.89,72.7,18,0
+Galactic Altair Lunar Base Tau,Saturn Supreme,Small,550,285,156750,19,32.54,78.7,10,23
+Quantum Rigel Research Outpost Beta,Venus Veggie Delight,Small,450,494,222300,24,658.75,71.4,0,0
+Hyper Rigel Research Facility Delta,Saturn Supreme,Small,550,227,124850,26,532.34,98.5,7,11
+Nebula Proxima Centauri Planetary Colony Zeta,Jupiter Jumbo,Large,950,58,55100,49,103.35,72.5,14,14
+Astro Andromeda Space Station Epsilon,Jupiter Jumbo,Small,600,62,37200,27,172.61,63.9,0,4
+Nebula Pollux Outpost Prime,Jupiter Jumbo,Small,600,327,196200,64,568.02,81.1,6,5
+Astro Orion Exo-Planet Haven Prime,Martian Special,Party,1200,364,436800,82,296.43,62.3,19,15
+Neo Orion Outpost Omega,Saturn Supreme,Party,1250,178,222500,34,938.32,64.4,19,11
+Nebula Spica Planetary Colony Prime,Saturn Supreme,Large,900,284,255600,113,818.76,68.8,10,11
+Hyper Castor Colony Station Zeta,Jupiter Jumbo,Small,600,118,70800,68,983.57,78.6,13,2
+Pollux Prime Outpost Nova,Martian Special,Large,850,292,248200,87,259.74,77.3,15,22
+Quantum Lyra Outpost Zeta,Martian Special,Large,850,435,369750,98,969.73,92.0,13,1
+Nebula Arcturus Mining Facility Forge,Venus Veggie Delight,Large,800,346,276800,31,431.29,89.6,11,6
+Cosmo Betelgeuse Planetary Colony Epsilon,Martian Special,Large,850,155,131750,39,347.58,77.1,16,1
+Galactic Sirius Colony Station Epsilon,Venus Veggie Delight,Party,1150,454,522100,93,50.44,73.3,13,20
+Exo Pollux Colony Station Zeta,Martian Special,Small,500,131,65500,94,52.86,72.7,9,6
+Cosmo Antares Research Outpost Omega,Jupiter Jumbo,Party,1300,159,206700,53,692.04,91.0,13,10
+Cosmo Arcturus Exo-Planet Haven Sigma,Saturn Supreme,Small,550,494,271700,41,457.98,62.1,17,10
+Neo Arcturus Planetary Colony Major,Venus Veggie Delight,Large,800,390,312000,60,226.6,60.5,8,13
+Interstellar Altair Prime Outpost Sigma,Saturn Supreme,Party,1250,478,597500,55,614.01,91.8,16,2
+Galactic Rigel Research Outpost Major,Martian Special,Small,500,277,138500,30,252.93,79.1,5,13
+Exo Polaris Space Station Pi,Venus Veggie Delight,Small,450,108,48600,108,577.67,65.2,7,10
+Spica Research Facility Omega,Saturn Supreme,Party,1250,421,526250,41,359.27,69.4,12,3
+Quantum Rigel Planetary Colony Sigma,Saturn Supreme,Small,550,397,218350,103,823.57,97.3,17,16
+Hyper Vega Exo-Planet Haven Nova,Martian Special,Small,500,303,151500,48,820.71,94.4,4,15
+Neo Andromeda Research Outpost Major,Jupiter Jumbo,Small,600,250,150000,21,477.4,88.4,5,2
+Astro Pollux Outpost Pi,Saturn Supreme,Party,1250,180,225000,114,350.88,79.3,18,9
+Exo Antares Exo-Planet Haven Zeta,Saturn Supreme,Party,1250,43,53750,56,362.62,80.8,3,20
+Andromeda Exo-Planet Haven Major,Saturn Supreme,Large,900,481,432900,27,805.73,99.0,6,14
+Neo Polaris Exo-Planet Haven Prime,Martian Special,Party,1200,174,208800,30,328.25,98.6,3,7
+Galactic Aldebaran Outpost Sigma,Martian Special,Party,1200,251,301200,22,209.14,68.6,10,17
+Hyper Capella Lunar Base Alpha,Venus Veggie Delight,Small,450,30,13500,30,84.78,92.4,11,2
+Hyper Antares Lunar Base Lambda,Martian Special,Party,1200,359,430800,17,466.75,67.9,13,6
+Exo Cygnus Planetary Colony Sigma,Saturn Supreme,Party,1250,310,387500,55,482.18,68.5,12,9
+Cosmo Sirius Outpost Forge,Saturn Supreme,Party,1250,413,516250,113,840.92,87.0,9,19
+Quantum Deneb Exo-Planet Haven Major,Venus Veggie Delight,Small,450,412,185400,119,221.32,76.2,17,8
+Stellar Sirius Lunar Base Omega,Saturn Supreme,Party,1250,17,21250,16,381.05,97.3,15,13
+Astro Lyra Research Facility Forge,Jupiter Jumbo,Large,950,320,304000,32,808.42,63.6,4,22
+Cosmo Betelgeuse Research Facility Major,Martian Special,Party,1200,395,474000,117,823.64,80.5,7,13
+Hyper Vega Lunar Base Forge,Jupiter Jumbo,Small,600,317,190200,105,384.67,96.7,13,10
+Cosmo Cygnus Research Outpost Prime,Jupiter Jumbo,Party,1300,40,52000,84,459.18,96.2,4,0
+Capella Lunar Base Epsilon,Saturn Supreme,Party,1250,177,221250,95,303.36,66.3,7,3
+Betelgeuse Research Outpost Alpha,Venus Veggie Delight,Small,450,24,10800,31,932.56,74.7,5,5
+Nebula Spica Research Outpost Alpha,Saturn Supreme,Large,900,325,292500,116,118.73,84.8,15,21
+Stellar Orion Lunar Base Major,Martian Special,Small,500,268,134000,98,933.76,66.4,3,21
+Cosmo Regulus Research Outpost Forge,Jupiter Jumbo,Small,600,498,298800,31,683.9,98.7,11,4
+Quantum Spica Lunar Base Major,Saturn Supreme,Party,1250,404,505000,101,531.62,96.6,10,2
+Hyper Sirius Prime Outpost Alpha,Martian Special,Small,500,146,73000,38,32.76,66.7,2,1
+Exo Arcturus Outpost Major,Venus Veggie Delight,Party,1150,464,533600,22,475.65,64.8,11,2
+Cygnus Mining Facility Prime,Saturn Supreme,Party,1250,375,468750,91,407.81,63.4,4,8
+Neo Betelgeuse Research Facility Epsilon,Venus Veggie Delight,Party,1150,475,546250,11,161.3,96.4,5,18
+Cosmo Deneb Planetary Colony Beta,Venus Veggie Delight,Small,450,147,66150,38,656.44,67.7,18,18
+Astro Spica Mining Facility Forge,Jupiter Jumbo,Party,1300,96,124800,94,971.15,76.7,17,16
+Astro Antares Mining Facility Prime,Martian Special,Small,500,358,179000,88,562.23,78.0,15,17
+Quantum Sirius Research Facility Alpha,Saturn Supreme,Party,1250,326,407500,61,714.78,84.0,10,10
+Hyper Sirius Lunar Base Omega,Martian Special,Party,1200,292,350400,36,68.54,62.9,4,11
+Galactic Sirius Colony Station Epsilon,Jupiter Jumbo,Large,950,219,208050,59,417.73,69.1,8,2
+Astro Lyra Space Station Sigma,Saturn Supreme,Small,550,451,248050,104,116.45,97.3,2,17
+Betelgeuse Lunar Base Epsilon,Saturn Supreme,Large,900,346,311400,88,612.83,96.3,7,23
+Interstellar Altair Mining Facility Tau,Venus Veggie Delight,Small,450,55,24750,32,938.49,91.3,5,5
+Quantum Orion Research Facility Zeta,Martian Special,Large,850,157,133450,97,661.81,60.8,3,6
+Galactic Deneb Prime Outpost Major,Venus Veggie Delight,Large,800,190,152000,53,76.9,73.1,11,0
+Hyper Deneb Space Station Forge,Martian Special,Large,850,67,56950,86,354.73,85.1,11,5
+Stellar Sirius Exo-Planet Haven Gamma,Saturn Supreme,Party,1250,194,242500,31,550.71,71.0,15,17
+Hyper Pollux Outpost Tau,Jupiter Jumbo,Large,950,129,122550,52,403.27,96.4,9,12
+Cosmo Regulus Planetary Colony Alpha,Jupiter Jumbo,Large,950,154,146300,46,833.66,85.4,13,21
+Galactic Sirius Research Facility Delta,Venus Veggie Delight,Large,800,318,254400,70,814.69,62.9,12,18
+Pollux Lunar Base Alpha,Martian Special,Large,850,62,52700,106,611.87,96.4,8,6
+Exo Regulus Space Station Tau,Venus Veggie Delight,Small,450,346,155700,65,373.52,98.3,6,18
+Quantum Aldebaran Colony Station Lambda,Martian Special,Party,1200,309,370800,12,255.41,63.1,11,8
+Neo Altair Colony Station Alpha,Jupiter Jumbo,Large,950,184,174800,72,105.96,81.3,4,2
+Astro Betelgeuse Space Station Major,Saturn Supreme,Small,550,174,95700,28,354.96,72.1,17,22
+Interstellar Arcturus Colony Station Lambda,Martian Special,Small,500,330,165000,32,413.23,75.7,3,11
+Astro Sirius Exo-Planet Haven Nova,Jupiter Jumbo,Large,950,275,261250,38,675.86,67.2,1,19
+Deneb Exo-Planet Haven Alpha,Saturn Supreme,Party,1250,58,72500,39,658.19,83.1,2,23
+Lyra Prime Outpost Epsilon,Saturn Supreme,Party,1250,495,618750,48,70.2,98.3,11,17
+Stellar Pollux Space Station Forge,Venus Veggie Delight,Party,1150,448,515200,117,395.32,80.1,2,7
+Nebula Rigel Space Station Omega,Jupiter Jumbo,Large,950,105,99750,34,181.86,63.3,3,8
+Nebula Castor Lunar Base Pi,Venus Veggie Delight,Small,450,485,218250,110,156.9,84.8,5,12
+Nebula Vega Research Outpost Prime,Martian Special,Party,1200,268,321600,17,827.32,73.6,11,7
+Neo Regulus Exo-Planet Haven Omega,Martian Special,Party,1200,57,68400,115,42.01,94.2,18,21
+Interstellar Regulus Outpost Forge,Saturn Supreme,Party,1250,64,80000,67,419.24,77.4,9,9
+Proxima Centauri Research Facility Lambda,Jupiter Jumbo,Small,600,496,297600,25,168.29,67.7,0,16
+Deneb Exo-Planet Haven Omega,Jupiter Jumbo,Small,600,112,67200,81,879.34,67.6,16,6
+Astro Antares Mining Facility Tau,Venus Veggie Delight,Large,

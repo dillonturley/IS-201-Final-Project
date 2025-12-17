@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brandMark" aria-hidden="true"></span>
+        <span>Portfolio</span>
+      </a>
+
+      <div class="navLinks">
+        <a class="navLink" href="index.html" aria-current="page">Home</a>
+        <a class="navLink" href="resume.html">Resume</a>
+        <a class="navLink" href="projects.html">Projects</a>
+        <a class="navLink" href="scratch.html">Scratch</a>
+      </div>
+
+      <button class="navBtn" id="modeBtn" type="button" aria-label="Toggle theme">
+        <span class="navBtnDot" aria-hidden="true"></span>
+      </button>
+    </nav>
+    <div class="scrollMeter" aria-hidden="true"><div class="scrollMeterFill" id="scrollMeterFill"></div></div>
+  </header>
+
+  <main id="main" class="shell">
+    <section class="hero card">
+      <div class="heroGrid">
+        <div>
+          <h1 class="h1">Welcome.</h1>
+          <p class="lead">
+            A clean site with interactions that reveal themselves through use.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn" href="projects.html">View projects</a>
+            <a class="btn btnGhost" href="resume.html">View resume</a>
+          </div>
+
+          <div class="subtleHint" aria-hidden="true">
+            <span class="hintPip"></span>
+            <span class="hintPip"></span>
+            <span class="hintPip"></span>
+          </div>
+        </div>
+
+        <div class="heroPanel">
+          <div class="panelHeader">
+            <div class="panelTitle">Interactive Surface</div>
+            <div class="panelMeta" id="panelMeta">—</div>
+          </div>
+          <canvas id="ambientCanvas" class="ambient" width="980" height="520" aria-label="Ambient interactive canvas"></canvas>
+
+          <div class="panelFooter">
+            <div class="micro">
+              <span class="tag" id="tagA">idle</span>
+              <span class="tag" id="tagB">stable</span>
+            </div>
+            <div class="micro">
+              <span class="dot" aria-hidden="true"></span>
+              <span class="mono" id="telemetry">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <article class="card">
+        <h2 class="h2">Navigation</h2>
+        <p class="p">
+          Each page carries consistent structure and quiet behaviors tied to your movement and timing.
+        </p>
+        <div class="miniRow" role="list">
+          <div class="mini" role="listitem">
+            <div class="miniKicker">Cursor</div>
+            <div class="miniValue" id="miniCursor">—</div>
+          </div>
+          <div class="mini" role="listitem">
+            <div class="miniKicker">Scroll</div>
+            <div class="miniValue" id="miniScroll">—</div>
+          </div>
+          <div class="mini" role="listitem">
+            <div class="miniKicker">Dwell</div>
+            <div class="miniValue" id="miniDwell">—</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="h2">Quick links</h2>
+        <p class="p">
+          Built for GitHub Pages (HTML / CSS / JS only). No external frameworks required.
+        </p>
+        <ul class="list">
+          <li><a class="link" href="resume.html">Resume (HTML)</a></li>
+          <li><a class="link" href="projects.html">Projects (interactive)</a></li>
+          <li><a class="link" href="scratch.html">Scratch page (rubric)</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <footer class="foot">
+      <div class="footInner">
+        <span class="mono">© <span id="year"></span></span>
+        <span class="mono footSep">•</span>
+        <button class="linkLike mono" id="footPeek" type="button">System</button>
+      </div>
+
+      <section class="diag" id="diag" aria-label="System panel" hidden>
+        <div class="diagHead">
+          <div class="diagTitle">System</div>
+          <button class="iconBtn" id="diagClose" type="button" aria-label="Close system panel">✕</button>
+        </div>
+        <div class="diagBody">
+          <div class="diagGrid">
+            <div class="diagCell">
+              <div class="k">Session</div>
+              <div class="v mono" id="dSession">—</div>
+            </div>
+            <div class="diagCell">
+              <div class="k">Interactions</div>
+              <div class="v mono" id="dInteractions">—</div>
+            </div>
+            <div class="diagCell">
+              <div class="k">Pointer velocity</div>
+              <div class="v mono" id="dVel">—</div>
+            </div>
+            <div class="diagCell">
+              <div class="k">Ambient state</div>
+              <div class="v mono" id="dState">—</div>
+            </div>
+          </div>
+          <p class="p small">
+            (Hidden panel: triple-click the footer area or use the “System” button.)
+          </p>
+        </div>
+      </section>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

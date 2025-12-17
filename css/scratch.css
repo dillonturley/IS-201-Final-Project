@@ -1,0 +1,144 @@
+/*style 1*/
+body { 
+    font-family: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.header-section {
+    background-color: #1a1a1a;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 3px solid #ffd700;
+    position: relative;
+}
+
+/* Logo on the right - positioned absolutely */
+.header-logo {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Text stays centered */
+.header-text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+.menu-section {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+    border: 3px solid #ffd700;
+}
+
+h1 {
+    color: #ffd700;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #ff4444;
+    font-size: 1.8em;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.menu-section h2 {
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+/* Links */
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff4444;
+    text-decoration: underline;
+}
+
+/* Lists */
+ol {
+    font-size: 1.1em;
+    line-height: 1.7;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+ol li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 25px;
+    list-style-type: disc;
+}
+
+ul li {
+    color: #ffffff;
+    margin: 5px 0;
+    padding: 3px 0;
+}
+
+strong {
+    color: #ffd700;
+    font-size: 1.15em;
+}
+
+/* Images and videos */
+img {
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+    border: 2px solid #ffd700;
+}
+
+/* Tableau container styling */
+.tableauPlaceholder {
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
